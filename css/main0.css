@@ -1,0 +1,21 @@
+#logo {
+  border-radius: 100%;
+}
+
+/* Colors */
+
+header.masthead {
+  background: maroon;
+}
+
+#mainNav {
+  background: gray !important;
+}
+
+#about {
+  background: maroon;
+}
+#topbutton {
+background: grey;
+border-radius: 100%;
+}
