@@ -26,5 +26,5 @@ a.nav-link.active:hover {
 }
 .caption {
   background: maroon;
-  opacity: 40%;
+  /*opacity: 40%;*/
 }
