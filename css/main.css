@@ -24,3 +24,7 @@ border-radius: 100%;
 a.nav-link.active:hover {
   color: maroon;
 }
+.caption {
+  color: maroon;
+  opacity: 40%;
+}
