@@ -202,8 +202,10 @@ header.masthead {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
-      opacity: 0;
-      background: rgba(24, 188, 156, 0.9); }
+      opacity:0;
+      background: lightgrey;
+      background: rgba(128,0,0,0.5);
+       }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
