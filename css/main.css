@@ -5,26 +5,26 @@
 /* Colors */
 
 header.masthead {
-  background: maroon;
+  background: #cc3344;
 }
 
 #mainNav {
-  background: gray !important;
+  background: #883344!important;
 }
 
 #about {
-  background: maroon;
+  background: #cc3344;
 }
 #topbutton {
-background: grey;
+background: #883344;
 border-radius: 100%;
 
 }
 
 a.nav-link.active:hover {
-  color: maroon;
+  color: #cc3344;
 }
 .caption {
-  background: maroon;
+  background: #cc3344;
   /*opacity: 40%;*/
 }

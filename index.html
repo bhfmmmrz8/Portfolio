@@ -26,6 +26,9 @@
 
   <body id="page-top">
 
+<!-- top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -57,10 +60,12 @@
         <div class="intro-text">
           <span class="name">Rabia Hussain</span>
           <hr class="star-light">
-          <span class="skills"> Graphic Designer - Illustrator - Photographer - Henna Artist</span>
+          <span class="skills"> Graphic Designer | Illustrator | Henna Artist</span>
         </div>
       </div>
     </header>
+
+
 
     <!-- Portfolio Grid Section -->
     <!-- thumbnails   -->
@@ -171,7 +176,7 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p>Currently pursuing a Bachelors in Fine Arts with a concentration in Digital Design from City College.
-            I am also leading freelance design projects focusing on print media and e-publishing.  </p>
+            I am also leading freelance design projects focusing on branding, advertising, print media and e-publishing.</p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p>Always up for a challenge, my enthusiasm is self driven and is heightened by the creative forces
@@ -179,12 +184,12 @@
           break the gender gap which exists in my household, and to show others the greatness of unity through
         my way of design.</p>
           </div>
-          <div class="col-lg-8 mx-auto text-center">
-            <!-- <a href="#" class="btn btn-lg btn-outline">
+          <!-- <div class="col-lg-8 mx-auto text-center">
+            <a href="#" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i>
               Download Theme
-            </a> -->
-          </div>
+            </a>
+          </div> -->
         </div>
       </div>
     </section>
@@ -198,6 +203,27 @@
           <div class="col-lg-8 mx-auto">
             <p>Please send your emails and inquiries at this address. </p>
             <p>rabia.hussain.0122@gmail.com</p>
+
+            <!--  contact form -->
+            <div class="container">
+             <form action="contact_me.php">
+
+               <label for="name">Name</label>
+               <input type="text" id="name" name="firstname" placeholder="Your name..">
+               <br>
+               <label for="email">Email</label>
+               <input type="text" id="email" name="email" placeholder="Your email address..">
+               <br>
+
+               <label for="subject">Subject</label><br>
+               <textarea id="subject" name="subject" placeholder="Write something to us.." style="height:200px; width:400px;"></textarea>
+               <br>
+               <input type="submit" value="Send">
+
+             </form>
+            </div>
+            <!-- end of contact form -->
+
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
 
@@ -205,6 +231,8 @@
         </div>
       </div>
     </section>
+
+
 
     <!-- Footer -->
     <footer class="text-center">
@@ -692,6 +720,27 @@
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
+<!-- top button js -->
+
+
+<script>
+// When the user scrolls down 400px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
   </body>
 
 </html>
