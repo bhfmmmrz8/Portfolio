@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: acier-bat-noir, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /*font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   overflow-x: hidden; }
 
 p {
@@ -18,7 +21,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #18BC9C;
+  color: #cc3344;
   outline: none; }
 
 h1,
@@ -27,7 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: acier-bat-solid, sans-serif;
+  font-style: normal;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -63,6 +67,63 @@ hr.star-primary {
 hr.star-primary:after {
   color:  #cc3344;
   background-color: white; }
+
+.fa-hexagon,
+.fa-hexagon-primary{
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  color: white;
+  background-color: #cc3344 ;
+}
+
+.hexacon1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.hexacon2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+/*
+hr.fa-hexagon-light,
+.fa-hexagon-primary:after{
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f005';
+}
+
+hr.fa-hexagon-light {
+  border-color: white; }
+
+hr.fa-hexagon-light:after {
+  color: white;
+  background-color: #cc3344 ; }
+
+hr.fa-hexagon-primary {
+  border-color:  #cc3344; }
+
+hr.fa-hexagon-primary:after {
+  color:  #cc3344;
+  background-color: white; }
+
+hr.fa-hexagon{}*/
 
 .img-centered {
   margin: 0 auto; }
@@ -101,7 +162,7 @@ section.success {
       outline: none; }
 
 #mainNav {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: acier-bat-solid, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -168,7 +229,8 @@ header.masthead {
     display: block;
     margin: 0 auto 20px; }
   header.masthead .intro-text .name {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: acier-bat-solid, sans-serif;
+    font-style: normal;
     font-size: 2em;
     font-weight: 700;
     display: block;
@@ -184,7 +246,8 @@ header.masthead {
     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
+      font-size: 1.75em;
+      font-family: avenir-light, sans-serif;} }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -330,7 +393,7 @@ header.masthead {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C; }
+  color: #cc3344; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
@@ -403,28 +466,28 @@ footer {
 .btn-success {
   font-weight: 700;
   color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C; }
+  border-color: #ee6677;
+  background-color: #ee6677; }
   .btn-success.focus, .btn-success:focus {
     color: white;
-    border-color: #0a4b3e;
-    background-color: #128f76; }
+    border-color: #dd2244;
+    background-color:  #ee6677; }
   .btn-success:hover {
     color: white;
-    border-color: #11866f;
-    background-color: #128f76; }
+    border-color: #dd2244;
+    background-color:  #dd2244; }
   .btn-success.active, .btn-success:active,
   .open > .btn-success.dropdown-toggle {
     color: white;
-    border-color: #11866f;
-    background-color: #128f76; }
+    border-color: #dd2244;
+    background-color:  #ee6677; }
     .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover,
     .open > .btn-success.dropdown-toggle.focus,
     .open > .btn-success.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle:hover {
       color: white;
-      border-color: #0a4b3e;
-      background-color: #0e6f5c; }
+      border-color: #dd2244;
+      background-color:  #ee6677; }
   .btn-success.active, .btn-success:active,
   .open > .btn-success.dropdown-toggle {
     background-image: none; }
@@ -432,10 +495,10 @@ footer {
   fieldset[disabled] .btn-success.focus,
   fieldset[disabled] .btn-success:focus,
   fieldset[disabled] .btn-success:hover {
-    border-color: #18BC9C;
-    background-color: #18BC9C; }
+    border-color: #dd2244;
+    background-color:  #dd2244; }
   .btn-success .badge {
-    color: #18BC9C;
+    color: #dd2244;
     background-color: white; }
 
 .btn-social {
@@ -472,3 +535,9 @@ footer {
   #myBtn:hover {
       background-color:#883344; /* Add a dark-grey background on hover */
   }
+
+.aboutpara p{
+  width: 400px;
+  font-stretch: semi-expanded;
+  font-family: avenir-light, sans-serif;
+}
