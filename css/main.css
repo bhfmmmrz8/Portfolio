@@ -30,3 +30,32 @@ a.nav-link.active:hover {
   background: #cc3344;
   /*opacity: 40%;*/
 }
+
+.portfolio-box:not(:last-child) {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.headshot {
+  text-align: center;
+}
+
+.headshot img {
+  /* max-width: 800px; */
+  border-radius: 15px;
+}
+
+.aboutpara p{
+  width: 400px;
+  font-stretch: semi-expanded;
+  font-family: avenir-light, sans-serif;
+}
+
+/* Media Queries */
+
+
+@media screen and (min-width: 990px) {
+  .headshot {
+    text-align: right;
+  }
+}

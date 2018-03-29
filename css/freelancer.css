@@ -535,9 +535,3 @@ footer {
   #myBtn:hover {
       background-color:#883344; /* Add a dark-grey background on hover */
   }
-
-.aboutpara p{
-  width: 400px;
-  font-stretch: semi-expanded;
-  font-family: avenir-light, sans-serif;
-}
