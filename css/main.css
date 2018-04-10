@@ -4,6 +4,10 @@
   /*margin-right: -150PX;*/
 }
 
+/* .img-portrait img{
+  width: 100%;
+} */
+
 /* Colors */
 
 header.masthead {
@@ -53,6 +57,12 @@ a.nav-link.active:hover {
 
 /* Media Queries */
 
+.my-portrait{
+  width: 100%;
+}
+.my-portrait img{
+  width: 100%;
+}
 
 @media screen and (min-width: 990px) {
   .headshot {
